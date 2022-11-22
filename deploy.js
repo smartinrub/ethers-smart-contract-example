@@ -20,6 +20,12 @@ async function main() {
 
   const helloWorld = await contract.helloWorld()
   console.log(helloWorld)
+
+  let gasLimit = await contract.getGasLimit()
+  console.log(`Gas limit is: ${gasLimit}`)
+
+  let sender = await contract.getSender()
+  console.log(`Sender is: ${sender}`)
 }
 
 main()

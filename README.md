@@ -1,6 +1,12 @@
 # Ethers Smart Contract Example
 
-## Getting Started
+## Prerequisites
+
+Run [Ganache](https://trufflesuite.com/ganache/).
+
+Copy one of the private keys.
+
+## Usage
 
 1. Compile Smart Contract:
 
